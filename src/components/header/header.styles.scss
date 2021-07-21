@@ -9,6 +9,7 @@
       height: 100%;
       width: 70px;
       padding: 25px;
+      
     }
   
     .options {
@@ -17,10 +18,15 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
+      color: black;
+    
   
       .option {
         padding: 10px 15px;
         cursor: pointer;
+        &:hover{
+          text-shadow: 2px 2px 4px rgb(206, 199, 199);
+        }
       }
     }
   }
