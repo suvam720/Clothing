@@ -5,13 +5,24 @@
     justify-content: space-between;
     margin-bottom: 25px;
 
+    .heading {
+      flex: auto;
+      padding: 8px ;
+      font-family: 'Poiret One', cursive;
+      cursor: pointer;
+      align-items: center;
+      float: right;
+
+    }
+
     .logo-container {
       height: 100%;
       width: 70px;
-      padding: 25px;
+      padding: 20px;
+     
       
     }
-  
+    
     .options {
       width: 50%;
       height: 100%;
@@ -25,7 +36,7 @@
         padding: 10px 15px;
         cursor: pointer;
         &:hover{
-          text-shadow: 2px 2px 4px rgb(206, 199, 199);
+          text-shadow: 2px 2px 4px rgb(204, 194, 194);
         }
       }
     }
