@@ -31,7 +31,7 @@ const CheckoutPage = ({cartItems,total}) => (
             ))
         }
         <div className='total'>
-            <span>TATAL: ${total}</span>
+            <span>TOTAL: ${total}</span>
         </div>
     </div>
 );
