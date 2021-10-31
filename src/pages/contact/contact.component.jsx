@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import FormInput from '../../components/form-input/form-input.component';
 import CustomButton from '../../components/custom-button/custom-button.component';
-import HomePage from "../homepage/homepage.component";
-import { Switch, Route, Redirect } from 'react-router-dom';
+import {Redirect } from 'react-router-dom';
 import './contact.styles.scss';
 
 
